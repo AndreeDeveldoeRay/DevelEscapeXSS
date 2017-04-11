@@ -4,7 +4,7 @@
 @Email:  me@andreeray.se
 @Filename: README.md
 @Last modified by:   develdoe
-@Last modified time: 2017-04-11T13:21:26+02:00
+@Last modified time: 2017-04-11T13:37:12+02:00
 -->
 
 
@@ -15,12 +15,12 @@ A small library providing utility methods to `escape` and `unescape` HTML entiti
 
 ## Installation
 
-  npm install devel-escape --save
+  npm install devel-escape-xss --save
 
 ## Usage
 
 ```js
-  var develescape = require('devel-escape')
+  var develescape = require('devel-escape-xss')
       escape = develescape.escape,
       unescape = develescape.unescape;
 
