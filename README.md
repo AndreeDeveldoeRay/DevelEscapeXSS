@@ -4,7 +4,7 @@
 @Email:  me@andreeray.se
 @Filename: README.md
 @Last modified by:   develdoe
-@Last modified time: 2017-04-11T13:12:01+02:00
+@Last modified time: 2017-04-11T13:21:26+02:00
 -->
 
 
@@ -15,10 +15,11 @@ A small library providing utility methods to `escape` and `unescape` HTML entiti
 
 ## Installation
 
-  npm install scapegoat --save
+  npm install devel-escape --save
 
 ## Usage
 
+```js
   var develescape = require('devel-escape')
       escape = develescape.escape,
       unescape = develescape.unescape;
@@ -28,6 +29,7 @@ A small library providing utility methods to `escape` and `unescape` HTML entiti
       unescaped = unescape(escaped);
 
   console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
+```
 
 ## Tests
 
